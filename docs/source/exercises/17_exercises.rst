@@ -268,7 +268,7 @@
 
     def convert_datetime_to_str(datetime_obj):
         """
-        Конвертирует строку с датой в формате 11/10/2019 14:05 в объект datetime.
+        Конвертирует объект datetime в строку с датой в формате 11/10/2019 14:05.
         """
         return datetime.datetime.strftime(datetime_obj, "%d/%m/%Y %H:%M")
 
